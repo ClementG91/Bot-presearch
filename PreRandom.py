@@ -9,7 +9,7 @@ r = RandomWords()
 
 url = 'https://www.presearch.com/'
 
-for i in range (2):
+for i in range (30):
     random_word = r.get_random_word()
     webbrowser.open_new(url)
     time.sleep(3)
